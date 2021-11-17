@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.switch-on {
+  background-color: black;
+  color: white;
+}
+
+.switch-off {
+  background-color: white;
+  color: black;
+}
+
+.person > div:nth-child(3n + 2) {
+  margin-top: 4rem;
+}
+
+.img-container {
+  justify-content: flex-end;
+}
+.img-container p {
+  text-transform: uppercase;
+  transform-origin: top right;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(-90deg);
+  align-self: start;
+  position: absolute;
+  margin: 0px -10px;
+  font-size: 1rem;
+}
+.img-container img {
+  box-shadow: 1px 1px 10px 5px gray;
+  border-radius: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title-grid {
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+#switch {
+  width: 6rem;
+  height: 2.5rem;
+  position: fixed;
+  top: 20px;
+  left: 80px;
+}
+.label {
+  position: fixed;
+  top: 30px;
+  left: 40px;
+  color: black;
+}
